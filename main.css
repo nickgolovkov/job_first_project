@@ -3,7 +3,9 @@
   margin: 0;
   z-index: 1;
 }
-
+.mobile-all-content{
+  display: none;
+}
 body {
   min-width: 1920px;
   max-width: 1920px;
@@ -153,11 +155,13 @@ header {
 }
 
 .first-headline {
-  font-size: 40pt;
+  font-size: 30pt;
+   max-height: 45px;
 }
 
 .second-headline {
-  font-size: 14pt;
+  font-size: 12pt;
+  word-wrap: normal;
 }
 
 .copy-block-content-text {
@@ -204,6 +208,12 @@ header {
 
 .copy-block-content-image {
   margin-left: 13px;
+}
+.copy-block-content-image-1{
+  cursor: pointer;
+}
+.copy-block-content-image{
+  cursor: pointer;
 }
 
 .banner {
@@ -693,3 +703,322 @@ footer {
   font-size: 14pt;
   margin-left: 40px;
 }
+@media screen and (max-device-width: 480px){
+  body{
+    max-width: 100vh;
+    min-width: 100vh;
+    max-height: 100vh;
+  }
+  .all-content{
+    display: none;
+  }
+  .mobile-all-content{
+    display: block;
+  }
+  .mobile-header{
+    height: 120px;
+    width: 100%;
+    background-color: #cecece;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mobile-header-information{
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    color: #2f2f2f;
+    margin-left: 40px;
+  }
+  .mobile-header-information-tel{
+    font-size: 27pt;
+  }
+  .mobile-header-icons-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 170px;
+    height: 100%;
+    background-color: #666666;
+  }
+  .mobile-header-icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .mobile-onclick-header{
+    width: 100%;
+    height: 372px;
+    background-color: #666666;
+    display: none;
+  }
+  .mobile-onclick-header-item{
+    width: 100%;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20pt;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    border: 1px solid black;
+    text-decoration: none;
+  }
+  .big-line{
+    width: 100px;
+    height: 15px;
+    background-color: #f7bc58;
+  }
+  .small-line{
+    width: 60px;
+    height: 15px;
+    background-color: #f7bc58;
+  }
+  .mobile-header-icons>div{
+    margin-bottom: 5px;
+  }
+  .mobile-kseroprint-logo{
+    height: 400px;
+    width: 100%;
+    background-color: #4d4d4d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .mobile-lines{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 40px;
+  }
+  .mobile-logo-wrap{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .line{
+    height: 100%;
+    width: 20px;
+    background-color: #999999;
+    border: 1px solid #4d4d4d;
+  }
+  #line1-id{
+    width: 100%;
+    height: 30px;
+    background-color: #01a0e2;
+  }
+   #line2-id{
+    width: 100%;
+    height: 30px;
+    background-color: #e62e90;
+  }
+  #line3-id{
+    width: 100%;
+    height: 30px;
+    background-color: #f1e821;
+  }
+  .mobile-logo-itself{
+    margin-top: 150px;
+    margin-left: 10px;
+
+  }
+  .mobile-logo-itself>img{
+    height: 100px;
+  }
+  .mobile-logo-text{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 17pt;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mobile-square{
+    height: 5px;
+    width: 5px;
+    background-color: #ffffff;
+    margin: 5px;
+  }
+  .mobile-print-text-first{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header-text-headline{
+    color: #4d4d4d;
+    font-size: 40pt;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .header-text-content{
+    height: 60px;
+    width: 270px;
+    background-color: #666666;
+    border-radius: 4px;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 80px;
+    margin-right: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+  }
+  .header-text-content>div{
+    margin-left: 20px;
+  }
+  .mobile-print-text-second{
+    color: #4d4d4d;
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    margin-top: 30px;
+  }
+  .mobile-footer{
+    width: 100%;
+    height: 100vh;
+    background-color: #4d4d4d;
+    margin-top: 300px;
+  }
+  .mobile-footer-ex{
+    width: 82%;
+    height: 900px;
+    background-color: #666666;
+    position: relative;
+    top: -20%;
+    left: 10%;
+  }
+  .mobile-footer-ex-content{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mobile-footer-header{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+  }
+  .mobile-footer-header-h{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 42pt;
+  }
+  .mobile-footer-header-s{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    margin-bottom: 25px;
+  }
+  .mobile-footer-form{
+    color: #ffffff;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mobile-footer-form-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    margin-bottom: 25px;
+  }
+  .mobile-footer-icons-cont{
+    height: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    border:1px solid #c83c56;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    color: #020200;
+    margin-bottom: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .mobile-footer-icons-cont>div{
+    margin-left: 20px;
+  }
+  .mobile-footer-icons-cont>button{
+    margin-right: 20px;
+  }
+  .mobile-footer-content-icons-button{
+     width: 60%;
+    height: 60px;
+    background-color: #f7bc58;
+    border:1px solid #c83c56;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+}
+}
+  
