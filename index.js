@@ -45,7 +45,9 @@ $('#wrapper-id').on('change_1', function () {
     $('#first-headline-id').html('СРОЧНАЯ ПЕЧАТЬ');
     $('#first-headline-id').fadeIn(700);
   })
+  $('#second-headline-img-id').fadeOut(700);
   $('#second-headline-id').fadeOut(700, function () {
+    $('#copy-block-content-headlines-id').css('align-items','baseline');
     $('#second-headline-id').html('ЦИФРОВАЯ ПЕЧАТЬ');
     $('#second-headline-id').fadeIn(700);
   })
@@ -70,7 +72,9 @@ $('#wrapper-id').on('change_2', function () {
     $('#first-headline-id').html('ИНТЕРЬЕРНАЯ ПЕЧАТЬ');
     $('#first-headline-id').fadeIn(700);
   })
+  $('#second-headline-img-id').fadeOut(700);
   $('#second-headline-id').fadeOut(700, function () {
+    $('#copy-block-content-headlines-id').css('align-items','baseline');
     $('#second-headline-id').html('ПОСМОТРЕТЬ ПРИМЕРЫ');
     $('#second-headline-id').fadeIn(700);
   })
@@ -94,9 +98,12 @@ $('#wrapper-id').on('change_3', function () {
     $('#first-headline-id').html('НАРУЖНАЯ РЕКЛАМА');
     $('#first-headline-id').fadeIn(700);
   })
+
   $('#second-headline-id').fadeOut(700, function () {
-    $('#second-headline-id').html('ПОСМОТРЕТЬ ПРИМЕРЫ');
+    $('#second-headline-id').empty();
+    $('#copy-block-content-headlines-id').css('align-items','normal');
     $('#second-headline-id').fadeIn(700);
+    $('#second-headline-img-id').fadeIn(700);
   })
   $('#first-text-id').fadeOut(700, function () {
     $('#first-text-id').html('Неотъемлемая часть лица компании, которая подчеркивает и указывает место Вашего нахождения, в тот же момент и играет роль распространителя информации о компании. Наши профессиональные сотрудники предложат Вам оптимальное расположение элементов рекламы с учетом восприятия наружной рекламы в разных условиях. Дизайнер подберет яркую и заметную цветопередачу для каждого индивидуального объекта. Изготовление самых ярких и выразительных конструкции, также входит в наши возможности.');
@@ -119,7 +126,9 @@ $('#wrapper-id').on('change_4', function () {
     $('#first-headline-id').html('ШИРОКОФОРМАТНАЯ ПЕЧАТЬ');
     $('#first-headline-id').fadeIn(700);
   })
+  $('#second-headline-img-id').fadeOut(700);
   $('#second-headline-id').fadeOut(700, function () {
+    $('#copy-block-content-headlines-id').css('align-items','baseline');
     $('#second-headline-id').html('ПОСМОТРЕТЬ ПРИМЕРЫ');
     $('#second-headline-id').fadeIn(700);
   })
