@@ -29,6 +29,51 @@ $('#content-fourth-image-itself').hover(function(){
   $(this).attr('src','images/ШИРОФОРМАТНАЯ-ПЕЧАТЬ.png');
 })
 
+$('#first-img-id').hover(function () {
+  $(this).attr('src', 'images/untitled-копия-7.png');
+}, function () {
+  $(this).attr('src', 'images/untitled-22.png');
+})
+
+$('#second-img-id').hover(function () {
+  $(this).attr('src', 'images/untitled-копия-8.png');
+}, function () {
+  $(this).attr('src', 'images/untitled-копия22.png');
+})
+
+$('#third-img-id').hover(function () {
+  $(this).attr('src', 'images/untitled-копия-9.png');
+}, function () {
+  $(this).attr('src', 'images/untitled-копия-2.png');
+})
+
+$('#fourth-img-id').hover(function () {
+  $(this).attr('src', 'images/untitled-копия-10.png');
+}, function () {
+  $(this).attr('src', 'images/untitled-копия-3.png');
+})
+
+$('#fifth-img-id').hover(function () {
+  $(this).attr('src', 'images/untitled-копия-11.png');
+}, function () {
+  $(this).attr('src', 'images/untitled-копия-4.png');
+})
+
+$('#sixth-img-id').hover(function () {
+  $(this).attr('src', 'images/untitled-копия-12.png');
+}, function () {
+  $(this).attr('src', 'images/untitled-копия-5.png');
+})
+
+$('#seventh-img-id').hover(function () {
+  $(this).attr('src', 'images/untitled-копия-13.png');
+}, function () {
+  $(this).attr('src', 'images/untitled-копия-6.png');
+})
+
+
+
+
 
 var first_clicked_counter=0;
 var second_clicked_counter = 0;
@@ -200,4 +245,117 @@ $('#header-text-content-id').on('click',function(){
     $('#mobile-print-text-second-id').slideDown(700);
   }
   activated2=!activated2;
+})
+
+
+$('#photos-itself-1').hover(function(){
+  $('#photos-itself-1').find('#photos-img-1').css('opacity','0.1');
+  $('#photos-itself-text-1').css('display','flex');
+},function(){
+  $('#photos-itself-').find('#photos-img-1').css('opacity','1');
+  $('#photos-itself-text-1').css('display','none');
+})
+
+$('#photos-itself-2').hover(function(){
+  $('#photos-itself-2').find('#photos-img-2').css('opacity','0.1');
+  $('#photos-itself-text-2').css('display','flex');
+},function(){
+  $('#photos-itself-2').find('#photos-img-2').css('opacity','1');
+  $('#photos-itself-text-2').css('display','none');
+})
+
+$('#photos-itself-3').hover(function(){
+  $('#photos-itself-3').find('#photos-img-3').css('opacity','0.1');
+  $('#photos-itself-text-3').css('display','flex');
+},function(){
+  $('#photos-itself-3').find('#photos-img-3').css('opacity','1');
+  $('#photos-itself-text-3').css('display','none');
+})
+
+$('#photos-itself-4').hover(function(){
+  $('#photos-itself-4').find('#photos-img-4').css('opacity','0.1');
+  $('#photos-itself-text-4').css('display','flex');
+},function(){
+  $('#photos-itself-4').find('#photos-img-4').css('opacity','1');
+  $('#photos-itself-text-4').css('display','none');
+})
+
+$('#photos-itself-5').hover(function(){
+  $('#photos-itself-5').find('#photos-img-5').css('opacity','0.1');
+  $('#photos-itself-text-5').css('display','flex');
+},function(){
+  $('#photos-itself-5').find('#photos-img-5').css('opacity','1');
+  $('#photos-itself-text-5').css('display','none');
+})
+
+$('#photos-itself-6').hover(function(){
+  $('#photos-itself-6').find('#photos-img-6').css('opacity','0.1');
+  $('#photos-itself-text-6').css('display','flex');
+},function(){
+  $('#photos-itself-6').find('#photos-img-6').css('opacity','1');
+  $('#photos-itself-text-6').css('display','none');
+})
+
+$('#photos-itself-7').hover(function(){
+  $('#photos-itself-7').find('#photos-img-7').css('opacity','0.1');
+  $('#photos-itself-text-7').css('display','flex');
+},function(){
+  $('#photos-itself-7').find('#photos-img-7').css('opacity','1');
+  $('#photos-itself-text-7').css('display','none');
+})
+
+$('#photos-itself-8').hover(function(){
+  $('#photos-itself-8').find('#photos-img-8').css('opacity','0.1');
+  $('#photos-itself-text-8').css('display','flex');
+},function(){
+  $('#photos-itself-8').find('#photos-img-8').css('opacity','1');
+  $('#photos-itself-text-8').css('display','none');
+})
+
+$('#photos-itself-9').hover(function(){
+  $('#photos-itself-9').find('#photos-img-9').css('opacity','0.1');
+  $('#photos-itself-text-9').css('display','flex');
+},function(){
+  $('#photos-itself-9').find('#photos-img-9').css('opacity','1');
+  $('#photos-itself-text-9').css('display','none');
+})
+
+$('#photos-itself-10').hover(function(){
+  $('#photos-itself-10').find('#photos-img-10').css('opacity','0.1');
+  $('#photos-itself-text-10').css('display','flex');
+},function(){
+  $('#photos-itself-10').find('#photos-img-10').css('opacity','1');
+  $('#photos-itself-text-10').css('display','none');
+})
+
+$('#photos-itself-11').hover(function(){
+  $('#photos-itself-11').find('#photos-img-11').css('opacity','0.1');
+  $('#photos-itself-text-11').css('display','flex');
+},function(){
+  $('#photos-itself-11').find('#photos-img-11').css('opacity','1');
+  $('#photos-itself-text-11').css('display','none');
+})
+
+$('#photos-itself-12').hover(function(){
+  $('#photos-itself-12').find('#photos-img-12').css('opacity','0.1');
+  $('#photos-itself-text-12').css('display','flex');
+},function(){
+  $('#photos-itself-12').find('#photos-img-12').css('opacity','1');
+  $('#photos-itself-text-12').css('display','none');
+})
+
+$('#photos-itself-1').hover(function(){
+  $('#photos-itself-1').find('#photos-img-1').css('opacity','0.1');
+  $('#photos-itself-text-1').css('display','flex');
+},function(){
+  $('#photos-itself-1').find('#photos-img-1').css('opacity','1');
+  $('#photos-itself-text-1').css('display','none');
+})
+
+$('#photos-itself-1').hover(function(){
+  $('#photos-itself-1').find('#photos-img-1').css('opacity','0.1');
+  $('#photos-itself-text-1').css('display','flex');
+},function(){
+  $('#photos-itself-1').find('#photos-img-1').css('opacity','1');
+  $('#photos-itself-text-1').css('display','none');
 })
