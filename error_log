@@ -1,0 +1,38 @@
+[04-Dec-2015 22:06:39 Europe/Minsk] PHP Fatal error:  Call to undefined method Pages_model::get_all_sliders() in /hosting2/prosolig/public_html/shansonsol.by/application/controllers/pages.php on line 26
+[07-Jan-2016 20:36:14 Europe/Minsk] PHP Fatal error:  Call to undefined method Display_lib::admin_info_page() in /hosting2/prosolig/public_html/shansonsol.by/application/controllers/administration.php on line 649
+[07-Jan-2016 20:36:22 Europe/Minsk] PHP Fatal error:  Call to undefined method Display_lib::admin_info_page() in /hosting2/prosolig/public_html/shansonsol.by/application/controllers/administration.php on line 649
+[07-Jan-2016 20:37:20 Europe/Minsk] PHP Fatal error:  Call to undefined method Display_lib::admin_info_page() in /hosting2/prosolig/public_html/shansonsol.by/application/controllers/administration.php on line 649
+[07-Jan-2016 20:38:36 Europe/Minsk] PHP Fatal error:  Call to undefined method Display_lib::admin_info_page() in /hosting2/prosolig/public_html/shansonsol.by/application/controllers/administration.php on line 649
+[05-Jun-2016 17:08:52 Europe/Minsk] PHP Fatal error:  Call to undefined method Display_lib::admin_info_page() in /hosting2/prosolig/public_html/shansonsol.by/application/controllers/administration.php on line 649
+[05-Jun-2016 17:12:59 Europe/Minsk] PHP Fatal error:  Call to undefined method Display_lib::admin_info_page() in /hosting2/prosolig/public_html/shansonsol.by/application/controllers/administration.php on line 649
+[10-Jan-2017 15:02:04 Europe/Minsk] PHP Fatal error:  Call to undefined method Display_lib::admin_info_page() in /hosting2/prosolig/public_html/shansonsol.by/application/controllers/administration.php on line 863
+[10-Jan-2017 15:12:31 Europe/Minsk] PHP Fatal error:  Call to undefined method Display_lib::admin_info_page() in /hosting2/prosolig/public_html/shansonsol.by/application/controllers/administration.php on line 863
+[19-Apr-2018 15:41:27 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 15:41:33 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 15:55:44 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 15:55:45 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 15:56:54 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:17:55 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:17:55 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:17:57 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:17:58 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:17:58 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:17:59 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:18:53 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:18:53 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:19:05 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:21:28 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:21:30 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:23:08 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:26:11 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 16:26:11 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:07:19 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:07:23 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:11:13 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:11:14 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:11:25 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:11:25 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:12:47 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:28:21 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:42:37 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3
+[19-Apr-2018 17:50:42 Europe/Minsk] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /hosting2/prosolig/public_html/shansonsol.by/index.php on line 3

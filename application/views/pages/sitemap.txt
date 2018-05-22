@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+xmlns="http://www.ra-kontur.by" 
+xmlns="http://www.ra-kontur.by/about" 
+xmlns="http://www.ra-kontur.by/portfolio" 
+xmlns="http://www.ra-kontur.by/partners" 
+xmlns="http://www.ra-kontur.by/contakt" 
+xmlns="http://www.ra-kontur.by/contakts" 
+xmlns="http://www.ra-kontur.by/price" 
+xmlns="http://www.ra-kontur.by/design" 
+xmlns="http://www.ra-kontur.by/brand" 
+xmlns="http://www.ra-kontur.by/advert" 
+xmlns="http://www.ra-kontur.by/price_n_reklama" 
+xmlns="http://www.ra-kontur.by/price_site" 
+xmlns="http://www.ra-kontur.by/price_vizitki" 
+xmlns="http://www.ra-kontur.by/price_flayer" 
+xmlns="http://www.ra-kontur.by/price_kalendar" 
+>
+  <url> 
+    <loc>http://www.ra-kontur.by/portfolio</loc> 
+    <image:image>
+       <image:loc>http://ra-kontur.by/img/portfolio/4.jpg</image:loc> 
+    </image:image>
+    <image:title>Сайт www.vorobey-ss.ru</image:title>  
+    <image:description>Написание сайтов студией дизайна и рекламы «Контур».</image:description>
+    </image:image>
+    
+      <image:image>
+       <image:loc>http://ra-kontur.by/img/portfolio/5.jpg</image:loc> 
+    </image:image>
+    <image:title>Сайт www.remont-soligorsk.by</image:title>  
+    <image:description>Написание сайтов студией дизайна и рекламы «Контур».</image:description>
+    </image:image>
+    
+    <image:image>
+       <image:loc>http://ra-kontur.by/img/portfolio/6.jpg</image:loc> 
+    </image:image>
+    <image:title>Сайт www.shansonsol.by</image:title>  
+    <image:description>Написание сайтов студией дизайна и рекламы «Контур».</image:description>
+    </image:image>
+  </url>
+  
+
+
+</urlset>
